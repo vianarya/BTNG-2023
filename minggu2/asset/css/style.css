@@ -1,0 +1,41 @@
+h1 {
+    color: red;
+}
+
+.namaclass{
+    color: blueviolet;
+    font-size: 100px;
+    text-decoration: underline;
+}
+span{
+    color: aqua;
+}
+
+#judul1{
+    color: chartreuse;
+}
+
+#judul2{
+    color: cyan;
+}
+
+.content{
+    background-color: antiquewhite;
+}
+
+.box{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+
+.box:hover {
+    background-color: azure;
+}
+/* .box a:hover{
+    color: aqua;
+} */
+.box:hover > a {
+    color: aquamarine;
+}
